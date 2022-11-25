@@ -7393,6 +7393,11 @@
   dependencies:
     "nodemailer-fetch" "1.6.0"
 
+"nodemailer@^4.6.7":
+  "integrity" "sha512-IludxDypFpYw4xpzKdMAozBSkzKHmNBvGanUREjJItgJ2NYcK/s8+PggVhj7c2yGFQykKsnnmv1+Aqo0ZfjHmw=="
+  "resolved" "https://registry.npmjs.org/nodemailer/-/nodemailer-4.7.0.tgz"
+  "version" "4.7.0"
+
 "normalize-path@^3.0.0", "normalize-path@~3.0.0":
   "integrity" "sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA=="
   "resolved" "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz"
@@ -9600,6 +9605,13 @@
   "integrity" "sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q=="
   "resolved" "https://registry.npmjs.org/std-env/-/std-env-3.3.1.tgz"
   "version" "3.3.1"
+
+"strapi-email-nodemailer@^0.2.1":
+  "integrity" "sha512-q+bXY+nZE3CT5c26p2O7s6+RG2IlFTgNRLHwvv+tR7xhULvBtBattzsk1rV+Z5GAbfCBLwyM8FiKXz8Ckf9jtQ=="
+  "resolved" "https://registry.npmjs.org/strapi-email-nodemailer/-/strapi-email-nodemailer-0.2.1.tgz"
+  "version" "0.2.1"
+  dependencies:
+    "nodemailer" "^4.6.7"
 
 "stream-browserify@^3.0.0":
   "integrity" "sha512-H73RAHsVBapbim0tU2JwwOiXUj+fikfiaoYAKHF3VJfA0pe2BCzkhAHBlLG6REzE+2WNZcxOXjK7lkso+9euLA=="
